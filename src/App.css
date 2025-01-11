@@ -1,0 +1,70 @@
+.logopagina {
+    width: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.logopagina:hover {
+    scale: 1.1;
+    transition: 0.2s;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.carrito-contenedor {
+    position: fixed; 
+    right: 20px; 
+    top: 20px; 
+    display: inline-block; 
+}
+
+.carrito {
+    width: 50px;
+    cursor: pointer;
+}
+
+.carrito:hover {
+    scale: 1.1;
+    transition: 0.2s;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.carrito-cantidad {
+    position: absolute;
+    top: -15px; 
+    right: -10px; 
+    background-color: #ececdd;
+    color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button {
+    color: white;
+    background: none;
+    border: 1px #f5f5f563 solid;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    position: relative;
+    top: 35px;
+    left: 600px;
+}
+
+Button:hover {
+    background: #f5f5f563;
+    scale: 1.1;
+    transition: 0.2s;
+}
+
