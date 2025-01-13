@@ -1,0 +1,15 @@
+.logopagina {
+    width: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.logopagina:hover {
+    scale: 1.1;
+    transition: 0.2s;
+    filter: drop-shadow(0 0 10px white);
+}
