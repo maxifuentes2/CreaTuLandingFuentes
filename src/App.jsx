@@ -1,7 +1,6 @@
 import './App.css'
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar'
-import Logo from './components/Logo'
 
 function App() {
     const mensaje = "Bienvenidos a la tienda de UrbanVerb";
@@ -9,7 +8,7 @@ function App() {
         <>
             <NavBar className="navbarr"/>
             <ItemListContainer mensaje={mensaje} />
-        </>
+        </> 
     )
 }
 

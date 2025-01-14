@@ -17,6 +17,7 @@
 }
 
 .carrito-cantidad {
+    cursor: pointer;
     position: absolute;
     top: -15px; 
     right: -10px; 
