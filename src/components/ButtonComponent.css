@@ -1,4 +1,4 @@
-button {
+.botones-header {
     color: white;
     background: none;
     border: 1px #f5f5f563 solid;
@@ -12,7 +12,7 @@ button {
     left: 600px;
 }
 
-Button:hover {
+.botones-header:hover {
     background: #f5f5f563;
     scale: 1.1;
     transition: 0.2s;
