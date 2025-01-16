@@ -1,16 +1,20 @@
 import './NavBar.css'
-import Button from './Button';
+import ButtonComponent from './ButtonComponent';
 import Logo from './Logo'
 import CartWidget from './CartWidget'
 
 export default function NavBar() {
     return (
-        <>
-            <nav className='header'>
+        <header>
+            <nav>
                 <Logo/>
-                <Button/>
+                <div>
+                    <ButtonComponent text="Remeras"/>
+                    <ButtonComponent text="Hoodies"/>
+                    <ButtonComponent text="Pantalones"/>
+                </div>
                 <CartWidget/>
-            </nav>
-        </>
+            </nav>           
+        </header>    
     );
 }
