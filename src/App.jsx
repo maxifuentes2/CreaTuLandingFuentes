@@ -6,7 +6,7 @@ function App() {
     const mensaje = "Bienvenidos a la tienda de UrbanVerb";
     return (
         <>
-            <NavBar className="navbarr"/>
+            <NavBar/>
             <ItemListContainer mensaje={mensaje} />
         </> 
     )
